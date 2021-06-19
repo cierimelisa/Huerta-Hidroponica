@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HuertaHidroponicaContacto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>    
+  <header> <!--inicio de pagina-->
+    <div class="tituloHuertaPages">
+          <img src="../imagenes/logoFrey.png" alt="logoFrey" />  
+          <h2 class="animate__animated animate__flipInX">Tu huerta saludable</h2>
+          
+   </div>
+
+     <nav>
+        <ul class="estiloMenuNavegacion"> <!--estos son los botones para navegar la pagina, irian uno a lado del otro-->
+            <li> <a href="../index.html"> Home </a> </li>
+            <li> <a href="Nosotros.html"> Nosotros </a> </li>
+            <li> <a href="Novedades.html"> Novedades </a></li>
+            <li> <a href="Productos.html"> Productos </a></li>
+            <li> <a href="Contacto.html"> Contacto </a> </li>
+        </ul>
+     </nav>
+  </header>
+    
+  <main> <!--esto es un formulario de contacto para consultas-->
+    <div class="formulario">
+     <form action="" method="">
+        Para consultas por favor ingrese sus datos
+          <br>
+        Nombre <input type="text" value="">
+          <br>
+        Mail <input type="text">
+          <br>
+        Seleccione su sexo <!--selector de radio-->
+      <p>Hombre</p>>
+        <input type="radio" name="sexo" value="hombre" />
+      <p>Mujer</p>>
+        <input type="radio" name="sexo" value="mujer" />
+
+          <br>
+        Seleccione su producto de consulta
+        <select name="producto">
+            <option value="L">Lechuga</option>
+            <option value="T">Tomate</option>
+            <option value="O">otros</option>
+        </select>
+          <br>
+        <div>Acepta términos y condiciones</div>
+        <input type="checkbox" name="acepta" value="1" />
+          <br>
+        Ingrese su consulta <textarea name="" id="" cols="100" rows="10"></textarea>
+          <br>
+        <input type="submit" value="enviar consulta">
+        <input type="reset" value="Limpiar formulario"/>
+     </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p id=grad>seguinos en Facebook / Instagram / Twitter  / Linkedin</p>
+  </footer>
+
+
+ </body>
+</html>
